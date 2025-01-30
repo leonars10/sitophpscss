@@ -1,0 +1,358 @@
+p {
+   font-family: 'Ordina';
+   color:white;
+   background-color: black;
+   text-align: center;
+   float: none;
+   padding: 40px;
+   margin: 0 auto;
+   height: auto;
+   width: auto;
+}
+
+/* Sfondo */
+
+.sfondo {
+   background-image: url(Sfondo/Sfondo.png); 
+   background-size: cover;
+   background-position: center;
+   height: 900px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   text-align: center;
+}
+
+.sfondo-content {
+   width: auto;
+   position: relative;
+   z-index: 2; 
+}
+
+.sfondo-content img {
+   max-width: 100%; 
+   padding-top: 50px;
+   height: auto; 
+   display: block;
+   margin: 0 auto; 
+   border-radius: 8px; 
+}
+
+/*.sfondo-content h2 {
+   display: none;
+   color: #fff;
+   font-family: "Ordina";
+   font-size: 3.5rem;
+}
+
+/* Servizi */
+
+.services {
+   background-color: #000000;
+   padding: 50px 20px;
+}
+
+.services .container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+/*.services h2 {
+   font-family: 'Ordina';
+   text-align: left;
+   font-size: 3rem;
+   margin-bottom: 50px;
+   color: #ffffff;
+}*/
+
+.service-item {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 30px;
+   border-bottom: 1px solid #dddddd7e; 
+   padding-bottom: 10px;
+}
+
+.service-title {
+   flex: 1; 
+   text-align: left;
+}
+
+/*.service-title h3 {
+   font-family: "Ordina";
+   font-size: 1.6rem;
+   color: #55DBCB;
+}*/
+
+.service-description {
+   flex: 1.5; 
+   padding-left: 30px;
+   padding-bottom: 30px;
+}
+
+.service-description p {
+   text-align: left;
+   margin: 0;
+   color: #ffffff;
+   font-size: 1rem;
+   line-height: 1.72; 
+}
+
+/*.service-item:hover h3 {
+   color: #ffffff;
+   transition: color 0.3s ease;
+}*/
+
+/* Form */
+
+.form-container {
+   background-color: #000000; 
+   padding: 40px 0; 
+   border-color: transparent;
+}
+
+.styled-form {
+   max-width: 850px; 
+   margin: 0 auto; 
+   padding: 20px;
+   background-color: #000000; 
+   color: #ffffff; 
+   font-family: "Ordina",Arial, sans-serif;
+}
+
+.form-row {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+/* Colonna sinistra */
+
+.form-row label {
+   flex: 1.5; 
+   text-align: left;
+   font-family: "Ordina";
+   margin-right: 10px;
+}
+
+/* Colonna di destra*/
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+   flex: 2; 
+   padding: 10px;
+   border: 0px #ffffff; 
+   border-radius: 4px;
+   font-size: 1rem;
+   background-color: #fff; 
+   color: #000; 
+   box-sizing: border-box;
+}
+
+.form-row input[type="text"]:focus,
+.form-row input[type="email"]:focus,
+.form-row textarea:focus {
+   font-family: 'Ordina', Helvetica, sans-serif;
+   outline: none;
+}
+
+.submit-btn {
+   background-color: #55DBCB; 
+   color: #000000;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-family: "Ordina";
+   font-size: 1rem;
+   transition: background-color 0.3s ease;
+   margin-left: auto; 
+}
+
+/* Fine Form */
+
+
+
+/* Smartphone */
+@media (max-width: 600px) {
+
+   .sfondo-content img{
+      display: none;
+   }
+   
+   .sfondo-content h2 {
+      display: block;
+      font-family: "Ordina-WideBold";
+      font-size: 3rem;
+      margin: 20px 20px;
+   }
+
+   .services {
+      background-color: #000000;
+      padding: 20px 20px;
+      font-family: "Ordina", Arial, sans-serif;
+   }
+
+   .services h2 {
+      font-family: 'Ordina';
+      text-align: left;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      color: #ffffff;
+   
+   }
+   
+   .service-item {
+      flex-direction: column;
+      margin: 0;
+      padding: 0px;
+
+   }
+
+   .service-title {
+      text-align: center; 
+      margin-bottom: 10px; 
+   }
+
+   .service-title h3 {
+      font-size: 1.4rem; 
+   }
+
+   .service-description {
+      padding-left: 0; 
+      text-align: center; 
+   }
+
+   .service-description p {
+      padding: 0px;
+      font-size: 0.9rem; 
+   }
+
+   .form-row {
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   
+   .form-row label {
+      margin-bottom: 5px;
+   }
+   
+   .submit-btn {
+      margin-left: 0;
+      width: 100%; 
+   }
+   }
+
+/* IPad */   
+@media screen and (min-width: 1921px) and (max-width: 2300px){
+
+   .sfondo-content img {
+      max-width: 100%; 
+      padding-top: 150px;
+      height: auto; 
+      display: block;
+      margin: 0 auto; 
+      border-radius: 8px; 
+   }
+   
+   .sfondo-content h2 {
+      font-family: "Ordina-WideBold";
+      font-size: 3rem;
+   }
+
+
+   .services .container {
+      max-width: 1800px;
+      margin: 0 auto;
+   }
+
+   .services h2 {
+      font-family: 'Ordina';
+      text-align: left;
+      font-size: 5rem;
+      margin-bottom: 50px;
+      color: #ffffff;
+   }
+
+   .service-title h3 {
+      font-family: "Ordina";
+      font-size: 2.8rem;
+      color: #55DBCB;
+   }
+   
+   .service-description {
+      flex: 1.5; 
+      padding-left: 30px;
+      padding-bottom: 30px;
+   }
+   
+   .service-description p {
+      text-align: left;
+      margin: 0;
+      color: #ffffff;
+      font-size: 2rem;
+      line-height: 1.72; 
+   }
+
+   
+
+   .form-container {
+      background-color: #000000; 
+      padding: 40px 0; 
+      border-color: transparent;
+   }
+   
+   .styled-form {
+      max-width: 1250px; 
+      margin: 0 auto; 
+      padding: 20px;
+      background-color: #000000; 
+      color: #ffffff; 
+      font-family: "Ordina",Arial, sans-serif;
+   }
+
+   .form-row label {
+      flex: 1; 
+      text-align: left;
+      font-family: "Ordina-WideBold";
+      font-size: 2rem;
+      margin-right: 10px;
+   }
+   
+   .form-row input[type="text"],
+   .form-row input[type="email"],
+   .form-row textarea {
+      flex: 2; 
+      padding: 10px;
+      border: 0px #ffffff; 
+      border-radius: 4px;
+      font-size: 1rem;
+      background-color: #fff; 
+      color: #000; 
+      box-sizing: border-box;
+   }
+   
+   .form-row input[type="text"]:focus,
+   .form-row input[type="email"]:focus,
+   .form-row textarea:focus {
+      font-family: "Ordina", Helvetica, sans-serif;
+      font-size: 1.7rem;
+      outline: none;
+   }
+   
+   .submit-btn {
+      background-color: #55DBCB; 
+      color: #000000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-family: "Ordina";
+      font-size: 2rem;
+      transition: background-color 0.3s ease;
+      margin-left: auto; 
+   }      
+ 
+   
+   }

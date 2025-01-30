@@ -1,0 +1,259 @@
+/* Sfondo */
+
+.sfondo {
+    background-image: url(Sfondo/Sfondo.png); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+ 
+.sfondo-content {
+    position: relative;
+    z-index: 2; 
+}
+ 
+.sfondo-content h2 {
+    color: #fff;
+    font-family: "Ordina";
+    font-size: 3.5rem;
+}
+
+/* Lista contatti */
+
+.contact-section {
+    background-color: #000; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.contact-list {
+    list-style-type: none; 
+    padding: 0;  
+}
+
+.contact-list li {
+    font-family: "Ordina", Helvetica; 
+    font-size: 2rem; 
+    color: #ffffff; 
+    margin-bottom: 10px; 
+}
+
+/* Fine lista contatti */
+
+.form-container {
+    background-color: #000000; 
+    padding: 40px 0; 
+}
+ 
+.styled-form {
+    max-width: 850px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #000000; 
+    color: #ffffff; 
+    font-family: "Ordina",Arial, sans-serif;
+}
+ 
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Form */
+
+/* Colonna sinistra */
+.form-row label {
+    flex: 1.5; 
+    text-align: left;
+    font-family: "Ordina";
+    margin-right: 10px;
+}
+ 
+/* Colonna destra*/
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    flex: 2; 
+    padding: 10px;
+    border: 0px #ffffff; 
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff; 
+    color: #000; 
+    box-sizing: border-box;
+}
+
+.form-row input[type="text"]:focus,
+.form-row input[type="email"]:focus,
+.form-row textarea:focus {
+    font-family: "Ordina", Helvetica, sans-serif;
+    outline: none;
+}
+ 
+.submit-btn {
+    background-color: #55DBCB; 
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Ordina";
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    margin-left: auto; 
+}
+ 
+
+
+/* Smartphone */
+@media (max-width: 600px) {
+
+    .contact-section {
+        background-color: #000; 
+        margin: auto auto; 
+        padding: 20px;
+        text-align: center; 
+    }
+    
+    .contact-list li {
+        font-family: "Ordina", Helvetica; 
+        font-size: 15px; 
+        color: #ffffff; 
+        margin-bottom: 10px; 
+    }
+
+    .form-container {
+        background-color: #000000; 
+        padding: 5px 0; 
+    }
+
+    .form-row label {
+        flex: 1.5; 
+        text-align: left;
+        font-family: "Ordina";
+        margin-bottom: 5px;
+        margin-right: 0px;
+        padding: 20px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     
+    .submit-btn {
+        margin-left: 0;
+        width: 100%; 
+    }
+    
+    .image-gallery {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .gallery-item {
+        width: 90%;
+        height: auto;
+    }
+    
+    .contact-list {       
+        text-align: left;
+        margin: 2px;
+        padding: 0px;
+    }
+    
+
+}
+
+/* Ipad */
+@media screen and (min-width: 1921px) and (max-width: 2300px) {
+
+
+    .sfondo {
+        background-image: url(Sfondo/Sfondo.png); 
+        background-size: cover;
+        background-position: center;
+        height: 800px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+
+    .sfondo-content h2 {
+        font-family: "Ordina";
+        font-size: 4.85rem;
+    }
+
+    .contact-list li {
+        font-family: "Ordina", Helvetica; 
+        font-size: 2rem; 
+        color: #ffffff; 
+        margin-bottom: 10px; 
+    }
+
+    .form-container {
+        background-color: #000000; 
+        padding: 40px 0; 
+        border-color: transparent;
+    }
+     
+    .styled-form {
+        max-width: 1250px; 
+        margin: 0 auto; 
+        padding: 20px;
+        background-color: #000000; 
+        color: #ffffff; 
+        font-family: "Ordina",Arial, sans-serif;
+    }
+  
+    .form-row label {
+        flex: 1; 
+        text-align: left;
+        font-family: "Ordina-WideBold";
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+     
+    .form-row input[type="text"],
+    .form-row input[type="email"],
+    .form-row textarea {
+        flex: 2; 
+        padding: 10px;
+        border: 0px #ffffff; 
+        border-radius: 4px;
+        font-size: 1rem;
+        background-color: #fff;
+        color: #000; 
+        box-sizing: border-box;
+    }
+     
+    .form-row input[type="text"]:focus,
+    .form-row input[type="email"]:focus,
+    .form-row textarea:focus {
+        font-family: "Ordina", Helvetica, sans-serif;
+        font-size: 1.7rem;
+        outline: none;
+    }
+     
+    .submit-btn {
+        background-color: #55DBCB; 
+        color: #000000;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-family: "Ordina";
+        font-size: 2rem;
+        transition: background-color 0.3s ease;
+        margin-left: auto; 
+    }      
+   
+     
+    }

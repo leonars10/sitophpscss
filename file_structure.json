@@ -1,0 +1,613 @@
+[
+    {
+        "type": "file",
+        "name": ".DS_Store",
+        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/.DS_Store",
+        "size": 8196
+    },
+    {
+        "type": "file",
+        "name": "decode_new.php",
+        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/decode_new.php",
+        "size": 684
+    },
+    {
+        "type": "file",
+        "name": "generate_file_list_new.php",
+        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/generate_file_list_new.php",
+        "size": 1070
+    },
+    {
+        "type": "directory",
+        "name": "sitophpsass",
+        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass",
+        "contents": [
+            {
+                "type": "file",
+                "name": ".DS_Store",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/.DS_Store",
+                "size": 10244
+            },
+            {
+                "type": "directory",
+                "name": "Css",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/.DS_Store",
+                        "size": 10244
+                    },
+                    {
+                        "type": "directory",
+                        "name": "Font",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font",
+                        "contents": [
+                            {
+                                "type": "file",
+                                "name": ".DS_Store",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/.DS_Store",
+                                "size": 6148
+                            },
+                            {
+                                "type": "directory",
+                                "name": "Ordina",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina",
+                                "contents": [
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-Wide.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-Wide.ttf",
+                                        "size": 286224
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideBold.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideBold.ttf",
+                                        "size": 300512
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideBoldOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideBoldOblique.ttf",
+                                        "size": 303200
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideExtrabold.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideExtrabold.ttf",
+                                        "size": 309204
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideExtraboldOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideExtraboldOblique.ttf",
+                                        "size": 310652
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideExtralight.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideExtralight.ttf",
+                                        "size": 292316
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideExtralightOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideExtralightOblique.ttf",
+                                        "size": 298596
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideHeavy.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideHeavy.ttf",
+                                        "size": 304760
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideHeavyOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideHeavyOblique.ttf",
+                                        "size": 314624
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideLight.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideLight.ttf",
+                                        "size": 285864
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideLightOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideLightOblique.ttf",
+                                        "size": 292744
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideMedium.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideMedium.ttf",
+                                        "size": 301892
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideMediumOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideMediumOblique.ttf",
+                                        "size": 307936
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideOblique.ttf",
+                                        "size": 292780
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideSemibold.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideSemibold.ttf",
+                                        "size": 324684
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideSemiboldOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideSemiboldOblique.ttf",
+                                        "size": 330092
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideThin.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideThin.ttf",
+                                        "size": 279796
+                                    },
+                                    {
+                                        "type": "file",
+                                        "name": "Ordina-WideThinOblique.ttf",
+                                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Font\/Ordina\/Ordina-WideThinOblique.ttf",
+                                        "size": 286072
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Index.html",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Index.html",
+                        "size": 5723
+                    },
+                    {
+                        "type": "file",
+                        "name": "LavoroPrincipale.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/LavoroPrincipale.css",
+                        "size": 6478
+                    },
+                    {
+                        "type": "directory",
+                        "name": "Sfondo",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Sfondo",
+                        "contents": [
+                            {
+                                "type": "file",
+                                "name": ".DS_Store",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Sfondo\/.DS_Store",
+                                "size": 6148
+                            },
+                            {
+                                "type": "file",
+                                "name": "Grafica_Sito.png",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Sfondo\/Grafica_Sito.png",
+                                "size": 152502
+                            },
+                            {
+                                "type": "file",
+                                "name": "Sfondo.png",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Sfondo\/Sfondo.png",
+                                "size": 471096
+                            }
+                        ]
+                    },
+                    {
+                        "type": "file",
+                        "name": "Stile.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Stile.css",
+                        "size": 6244
+                    },
+                    {
+                        "type": "file",
+                        "name": "Style_Contatti.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Style_Contatti.css",
+                        "size": 5048
+                    },
+                    {
+                        "type": "file",
+                        "name": "Style_Lavori.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/Style_Lavori.css",
+                        "size": 4750
+                    },
+                    {
+                        "type": "file",
+                        "name": "_footer.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/_footer.scss",
+                        "size": 3081
+                    },
+                    {
+                        "type": "file",
+                        "name": "_header.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/_header.scss",
+                        "size": 3357
+                    },
+                    {
+                        "type": "file",
+                        "name": "_variabili.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/_variabili.scss",
+                        "size": 546
+                    },
+                    {
+                        "type": "file",
+                        "name": "contattistile.min.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/contattistile.min.css",
+                        "size": 7079
+                    },
+                    {
+                        "type": "file",
+                        "name": "contattistile.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/contattistile.scss",
+                        "size": 3860
+                    },
+                    {
+                        "type": "file",
+                        "name": "decode.php",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/decode.php",
+                        "size": 1003
+                    },
+                    {
+                        "type": "file",
+                        "name": "indexstile.min.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/indexstile.min.css",
+                        "size": 7828
+                    },
+                    {
+                        "type": "file",
+                        "name": "indexstile.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/indexstile.scss",
+                        "size": 4332
+                    },
+                    {
+                        "type": "file",
+                        "name": "lavoristile.min.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/lavoristile.min.css",
+                        "size": 6785
+                    },
+                    {
+                        "type": "file",
+                        "name": "lavoristile.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/lavoristile.scss",
+                        "size": 3365
+                    },
+                    {
+                        "type": "file",
+                        "name": "lavoroesempio.min.css",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/lavoroesempio.min.css",
+                        "size": 6990
+                    },
+                    {
+                        "type": "file",
+                        "name": "lavoroesempio.scss",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Css\/lavoroesempio.scss",
+                        "size": 3430
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "Font",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/.DS_Store",
+                        "size": 6148
+                    },
+                    {
+                        "type": "directory",
+                        "name": "Ordina",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina",
+                        "contents": [
+                            {
+                                "type": "file",
+                                "name": ".DS_Store",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/.DS_Store",
+                                "size": 8196
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-Wide.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-Wide.ttf",
+                                "size": 286224
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideBold.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideBold.ttf",
+                                "size": 300512
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideBoldOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideBoldOblique.ttf",
+                                "size": 303200
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideExtrabold.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideExtrabold.ttf",
+                                "size": 309204
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideExtraboldOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideExtraboldOblique.ttf",
+                                "size": 310652
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideExtralight.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideExtralight.ttf",
+                                "size": 292316
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideExtralightOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideExtralightOblique.ttf",
+                                "size": 298596
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideHeavy.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideHeavy.ttf",
+                                "size": 304760
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideHeavyOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideHeavyOblique.ttf",
+                                "size": 314624
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideLight.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideLight.ttf",
+                                "size": 285864
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideLightOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideLightOblique.ttf",
+                                "size": 292744
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideMedium.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideMedium.ttf",
+                                "size": 301892
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideMediumOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideMediumOblique.ttf",
+                                "size": 307936
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideOblique.ttf",
+                                "size": 292780
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideSemibold.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideSemibold.ttf",
+                                "size": 324684
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideSemiboldOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideSemiboldOblique.ttf",
+                                "size": 330092
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideThin.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideThin.ttf",
+                                "size": 279796
+                            },
+                            {
+                                "type": "file",
+                                "name": "Ordina-WideThinOblique.ttf",
+                                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Font\/Ordina\/Ordina-WideThinOblique.ttf",
+                                "size": 286072
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "Img",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/.DS_Store",
+                        "size": 6148
+                    },
+                    {
+                        "type": "file",
+                        "name": "1Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/1Lavoro.png",
+                        "size": 75866
+                    },
+                    {
+                        "type": "file",
+                        "name": "2Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/2Lavoro.png",
+                        "size": 149591
+                    },
+                    {
+                        "type": "file",
+                        "name": "3Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/3Lavoro.png",
+                        "size": 17077
+                    },
+                    {
+                        "type": "file",
+                        "name": "4Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/4Lavoro.png",
+                        "size": 266572
+                    },
+                    {
+                        "type": "file",
+                        "name": "5Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/5Lavoro.png",
+                        "size": 426045
+                    },
+                    {
+                        "type": "file",
+                        "name": "6Lavoro.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Img\/6Lavoro.png",
+                        "size": 43289
+                    }
+                ]
+            },
+            {
+                "type": "directory",
+                "name": "Immagini_Lavoro",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Immagini_Lavoro",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Immagini_Lavoro\/.DS_Store",
+                        "size": 6148
+                    },
+                    {
+                        "type": "file",
+                        "name": "1Cine.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Immagini_Lavoro\/1Cine.png",
+                        "size": 1294037
+                    },
+                    {
+                        "type": "file",
+                        "name": "2Cine.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Immagini_Lavoro\/2Cine.png",
+                        "size": 763290
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": "Logo_Sito.png",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Logo_Sito.png",
+                "size": 13249
+            },
+            {
+                "type": "directory",
+                "name": "Video",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Video",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Video\/.DS_Store",
+                        "size": 6148
+                    },
+                    {
+                        "type": "file",
+                        "name": "Michael_Jordan.mp4",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/Video\/Michael_Jordan.mp4",
+                        "size": 12071565
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": "contact_form.php",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/contact_form.php",
+                "size": 788
+            },
+            {
+                "type": "file",
+                "name": "contatti.php",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/contatti.php",
+                "size": 1888
+            },
+            {
+                "type": "directory",
+                "name": "includes",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes",
+                "contents": [
+                    {
+                        "type": "file",
+                        "name": ".DS_Store",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/.DS_Store",
+                        "size": 6148
+                    },
+                    {
+                        "type": "file",
+                        "name": "Logo_Sito.png",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/Logo_Sito.png",
+                        "size": 13249
+                    },
+                    {
+                        "type": "file",
+                        "name": "config.php",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/config.php",
+                        "size": 900
+                    },
+                    {
+                        "type": "file",
+                        "name": "footer.php",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/footer.php",
+                        "size": 1331
+                    },
+                    {
+                        "type": "file",
+                        "name": "header.php",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/header.php",
+                        "size": 1088
+                    },
+                    {
+                        "type": "file",
+                        "name": "sitophpsass.code-workspace",
+                        "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/includes\/sitophpsass.code-workspace",
+                        "size": 146
+                    }
+                ]
+            },
+            {
+                "type": "file",
+                "name": "index.php",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/index.php",
+                "size": 3172
+            },
+            {
+                "type": "file",
+                "name": "lavori.php",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/lavori.php",
+                "size": 2659
+            },
+            {
+                "type": "file",
+                "name": "lavoroesempio.php",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/lavoroesempio.php",
+                "size": 1647
+            },
+            {
+                "type": "file",
+                "name": "messaggi_contatti.txt",
+                "path": "\/Applications\/XAMPP\/xamppfiles\/htdocs\/1provaphp\/sitophpsass\/messaggi_contatti.txt",
+                "size": 531
+            }
+        ]
+    }
+]

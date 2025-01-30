@@ -1,0 +1,256 @@
+/* Sfondo */
+
+.sfondo {
+    background-image: url(Sfondo/Sfondo.png); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+ 
+.sfondo-content {
+    position: relative;
+    z-index: 2; 
+}
+ 
+.sfondo-content h2 {
+    color: #fff;
+    font-family: "Ordina";
+    font-size: 3.5rem;
+}
+
+.video-section {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: #000; 
+    border-radius: 8px;
+    max-width: 1200px; 
+}
+
+.video-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video-container video {
+    width: 100%; 
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+p {
+    font-family: 'Ordina';
+    color:white;
+    background-color: black;
+    text-align: center;
+    float: none;
+    padding: 40px;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+
+/* Descrizione lavori */
+
+.descrizione {
+    background-color: #000000;
+    padding: 5px 5px;
+    font-family: "Ordina", Arial, sans-serif;
+    max-width: 2000px;
+    margin: 0 0;
+}
+ 
+.descrizione p {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.6; 
+}
+
+/* Immagini lavori */
+
+.image-gallery {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+    padding: 10px;
+    background-color: #000000; 
+    margin: 0 auto;
+}
+
+.gallery-item {
+    position: relative; 
+    flex: 0 0 auto; 
+    max-width: calc(33.333% - 20px); 
+    box-sizing: border-box; 
+    overflow: hidden;
+    border: 2px solid #1c1c1c; 
+    border-radius: 5px; 
+    background-color: #55DBCB; 
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    transition: opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.gallery-item:hover img {
+    opacity: 0; 
+    transform: scale(1.1); 
+}
+
+.project-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(85, 219, 203,0); 
+    color: rgb(0, 0, 0);
+    font-family: "Ordina";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    z-index: 1; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.gallery-item:hover .project-name {
+    opacity: 1; 
+}
+
+/* Fine immagini lavori */
+
+/* Smartphone */
+@media (max-width: 600px) {
+
+    .descrizione {
+        background-color: #000000;
+        padding: 0px;
+        font-family: "Ordina", Arial, sans-serif;
+        max-width: 2000px;
+        margin: 0 0;
+    }
+
+    .descrizione p {
+        text-align: left;
+        max-width: 600px;
+        margin: auto auto;
+        color: #ffffff;
+        font-size: 15px;
+        line-height: 1.6; 
+    }
+
+    p {
+        font-family: 'Ordina';
+        color:white;
+        background-color: black;
+        text-align: center;
+        float: none;
+        padding: 20px;
+        margin: auto auto;
+        height: auto;
+        width: auto;
+    }
+    
+    .video-section {
+        margin: auto auto;
+        padding: 20px;
+    }
+
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px; 
+        justify-content: center;
+        margin: auto auto;
+        padding: 20px;
+        background-color: #000000; 
+    }
+    
+
+    .gallery-item {
+        flex: 1 1 100%; 
+        max-width: 100%;
+         
+    }
+    
+}
+   
+/* Ipad */
+@media screen and (min-width: 1921px) and (max-width: 2300px){
+
+    .sfondo {
+        background-image: url(Sfondo/Sfondo.png); 
+        background-size: cover;
+        background-position: center;
+        height: 800px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+ 
+    .sfondo-content h2 {
+        font-family: "Ordina";
+        font-size: 4.85rem;
+    }
+
+    .descrizione {
+        background-color: #000000;
+        padding: 5px 5px;
+        font-family: "Ordina", Arial, sans-serif;
+        max-width: 2160px;
+        margin: 0 0;
+        
+    }
+    
+    .descrizione p {
+        text-align: center;
+        max-width: 600px;
+        margin: 20px auto;
+        color: #ffffff;
+        font-size: 2rem;
+        line-height: 1.72; 
+    }
+
+    .gallery-item {
+        position: relative; 
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px); 
+    }
+
+    .image-gallery {
+        max-width: 1800px;
+        
+    }
+
+    .video-section {
+        max-width: 1800px; 
+    }
+
+    .project-name {
+
+        font-size: 55px;
+    }
+
+}

@@ -1,0 +1,352 @@
+/* Sfondo */
+
+.sfondo {
+    background-image: url(Sfondo/Sfondo.png); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.sfondo-content {
+    position: relative;
+    z-index: 2; 
+}
+
+.sfondo-content h2 {
+    color: #fff;
+    font-family: "Ordina";
+    font-size: 3.5rem;
+}
+
+/* Fine sfondo */
+
+/* Testo descrizione */
+
+.services {
+    background-color: #000000;
+    padding: 50px 20px;
+    font-family: "Ordina", Arial, sans-serif;
+}
+ 
+.services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.service-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dddddd7e; 
+    padding-bottom: 10px;
+}
+ 
+.service-title {
+    flex: 1; 
+    text-align: left;
+}
+ 
+.service-title h3 {
+    font-family: "Ordina";
+    font-size: 1.6rem;
+    color: #55DBCB;
+}
+ 
+.service-description {
+    flex: 1.5; 
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+ 
+.service-description p {
+    text-align: left;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.72; 
+}
+
+/* Immagini lavori */
+
+.image-gallery {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #000000;
+}
+
+.gallery-item {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.gallery-item img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/* Ultimo testo */
+
+.services2 {
+    background-color: #000000;
+    padding: 40px 0px;
+    font-family: "Ordina", Arial, sans-serif;
+ }
+ 
+.services2 .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.service-item2 {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dddddd7e; 
+    padding-bottom: 10px;
+}
+ 
+.service-title2 {
+    flex: 1; 
+    text-align: left;
+    font-size: 1.6rem;
+    color: #55DBCB;
+}
+ 
+.service-description2 {
+    flex: 1.5; 
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+ 
+.service-description2 p {
+    text-align: left;
+    margin-top: 40px;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.72; 
+}
+
+
+
+/* Smartphone */
+@media (max-width: 600px) {
+
+    .sfondo-content h2 {
+        font-family: "Ordina";
+        font-size: 2.5rem;
+    }
+
+    .services {
+        margin: auto auto; 
+        padding: 20px;
+        padding-top: 20px;
+    }
+    
+    .container {
+        max-width: 480px;
+        margin: 0 0;
+    }
+
+    .service-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #dddddd7e; 
+        padding-bottom: 30px;
+        padding-top: 0px;
+    }
+     
+    .service-title h3 {
+        font-family: "Ordina";
+        font-size: 1.4rem;
+        color: #55DBCB;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+    .service-description {
+        flex: 4;
+        padding: 0px;
+    }
+     
+    .service-description p {
+        text-align: left;
+        margin: 0;
+        color: #ffffff;
+        font-size: 0.9rem;
+        line-height: 1.72; 
+    }
+
+    .services2 {
+        background-color: #000000;
+        padding: 20px;
+        padding-top: 10px;
+        font-family: "Ordina", Arial, sans-serif;
+    }
+
+
+    .service-item2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #dddddd7e; 
+        padding-bottom: 30px;
+    }
+
+    .service-title2 h4 {
+        font-family: "Ordina";
+        font-size: 1.5rem;
+        color: #55DBCB;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 0px;
+    }
+
+
+    .service-description2 { 
+        padding: 0px;
+    }
+
+    .service-description2 p {
+        text-align: left;
+        margin: 0;
+        color: #ffffff;
+        font-size: 0.9rem;
+        line-height: 1.72; 
+    }
+
+
+    
+    }
+
+/* Ipad */
+@media screen and (min-width: 1921px) and (max-width: 2300px){
+      
+    .sfondo {
+        background-image: url(Sfondo/Sfondo.png); 
+        background-size: cover;
+        background-position: center;
+        height: 800px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        color: #fff;
+        text-align: center;
+    }
+ 
+    .sfondo-content h2 {
+        font-family: "Ordina";
+        font-size: 4.85rem;
+    }
+
+    .services .container {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+  
+    .services h2 {
+        font-family: 'Ordina';
+        text-align: left;
+        font-size: 5rem;
+        margin-bottom: 50px;
+        color: #ffffff;
+    }
+  
+    .service-title h3 {
+        font-family: "Ordina";
+        font-size: 2.8rem;
+        color: #55DBCB;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+     
+    .service-description {
+        flex: 1.5; 
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+     
+    .service-description p {
+        text-align: left;
+        margin: 0;
+        color: #ffffff;
+        font-size: 2rem;
+        line-height: 1.72; 
+    }
+
+    .image-gallery {
+        max-width: 1800px; 
+        margin: 0 auto; 
+        padding: 20px; 
+        background-color: #000000;
+    }
+    
+    .gallery-item {
+        display: flex;
+        flex-wrap: wrap; 
+        gap: 20px; 
+        justify-content: center; 
+    }
+    
+    .gallery-item img {
+        max-width: 100%; 
+        height: auto; 
+        border-radius: 8px; 
+    }
+
+    .services2 {
+        background-color: #000000;
+        padding: 40px 0px;
+        font-family: "Ordina", Arial, sans-serif;
+    }
+     
+    .services2 .container2 {
+        max-width: 1800px;
+        margin: 0 auto;
+    }
+     
+    .service-item2 {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #dddddd7e; 
+        padding-bottom: 10px;
+    }
+     
+    .service-title2 h4 {
+        flex: 1; 
+        text-align: left;
+        font-size: 2.8rem;
+        color: #55DBCB;
+        
+    }
+     
+    .service-description2 {
+        flex: 1.5; 
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+     
+    .service-description2 p {
+        text-align: left;
+        margin-top: 60px;
+        color: #ffffff;
+        font-size: 2rem;
+        line-height: 1.72; 
+    }
+    
+    }
